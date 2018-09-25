@@ -1,0 +1,12 @@
+.bgimg{
+    background-image: url("../../assets/Pics/lotus40percent.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size:  cover; /* Resize the background image to cover the entire container */
+    height:50rem;
+   
+    background-position-y: -50px;
+}
+.margin{
+    margin-top: 10%;
+}

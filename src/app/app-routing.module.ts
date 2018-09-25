@@ -7,6 +7,7 @@ import { PriceComponent } from './price/price.component';
 import { AppointmentsComponent } from './appointments/appointments.component';
 import { LandingComponent } from './landing/landing.component';
 
+
 const routes: Routes = [
   {path:"",pathMatch: "full", redirectTo:"home"},
   {path:"home", component:HomeComponent},
