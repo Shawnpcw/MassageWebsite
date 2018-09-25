@@ -19,8 +19,9 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "src/tsconfig.app.json",
             "assets": [
-              "src/favicon.ico",
-              "src/assets"
+              "src/lotus.ico",
+              "src/assets",
+              "src/assets/Pics/PersonPic.png"
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
