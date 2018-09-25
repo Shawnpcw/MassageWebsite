@@ -5,10 +5,12 @@ import { ContactComponent } from './contact/contact.component';
 import { PoliciesComponent } from './policies/policies.component';
 import { PriceComponent } from './price/price.component';
 import { AppointmentsComponent } from './appointments/appointments.component';
+import { LandingComponent } from './landing/landing.component';
 
 const routes: Routes = [
   {path:"",pathMatch: "full", redirectTo:"home"},
   {path:"home", component:HomeComponent},
+  {path:"landing", component:LandingComponent},
   {path:"contact", component:ContactComponent},
   {path:"policies", component:PoliciesComponent},
   {path:"prices", component:PriceComponent},

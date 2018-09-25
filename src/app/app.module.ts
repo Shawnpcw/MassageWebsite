@@ -8,6 +8,8 @@ import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
 import { PoliciesComponent } from './policies/policies.component';
 import { PriceComponent } from './price/price.component';
+import { LandingComponent } from './landing/landing.component';
+
 
 @NgModule({
   declarations: [
@@ -16,7 +18,8 @@ import { PriceComponent } from './price/price.component';
     ContactComponent,
     HomeComponent,
     PoliciesComponent,
-    PriceComponent
+    PriceComponent,
+    LandingComponent
   ],
   imports: [
     BrowserModule,
