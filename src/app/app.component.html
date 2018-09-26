@@ -9,8 +9,12 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Lotus Masáž</title>
 </head>
-<body class="greenBackground" style="height: 1000px;">
-
+<body class="greenBackground" style="height: auto; width: auto" >
+<style>
+  .bg-grey1{
+    background-color: rgb(3, 3, 3);
+  }
+</style>
 
 
 <nav class="navbar  navbar-expand-lg navbar-light">
@@ -25,10 +29,10 @@
         <button class="nav-link btn btn-link" (click)="home()">Home </button>
       </li>
       <li class="nav-item">
-        <button class="nav-link btn btn-link" (click)="prices()">Prices </button>
+        <button class="nav-link btn btn-link" (click)="massages()">Massage Types </button>
       </li>
       <li class="nav-item">
-        <button class="nav-link btn btn-link" (click)="appointments()">Appointments </button>
+        <button class="nav-link btn btn-link" (click)="prices()">Prices </button>
       </li>
       <li class="nav-item">
         <button class="nav-link btn btn-link" (click)="policies()">Policies</button>
@@ -37,6 +41,7 @@
         <button class="nav-link btn btn-link" (click)="contact()">Contact </button>
       </li>
     </ul>
+    <a class="mr-3 btn btn-outline-dark mt-2" href="https://visibook.com/lotusmasaz" target="_blank">SCHEDULE APPOINTMENT</a>
   </div>
   
 </nav>
@@ -44,6 +49,26 @@
 
   <router-outlet></router-outlet>
 </div>
-  
+<br>
+
+<div class="row mb-3 p-0" style="width: 100%">
+    <br>
+  <div class="col-lg-4 text-center  p-0">
+  <p class="mb-0">701 Bay Street, Suite 204</p>  
+  <p class="mb-0">Port Orchard, WA 98366</p>
+  <p class="mb-0">https://www.xn--lotusmas-gza48m.com/</p>
+  <p class="mb-5">(360)-536-6572</p>
+  </div>
+  <div class="col-lg-4 text-center mb-5  p-0">
+  <a href="https://www.yelp.com/biz/lotus-masaz-port-orchard-2?osq=lotus+masaz"><button class="btn mr-2 mt-2">Review us on Yelp</button></a>
+    <button class="btn mt-2">Review us on Google</button>
+  </div>
+  <div class="col-lg-4 text-center mb-4 mr-0 p-0">
+    <a href="https://www.facebook.com/lotusmasaz/"><img src="../assets/Pics/facebook.png" alt="facebook icon" height="45px" width="45px"></a>
+    <a href="http://blog.lotusmasaz.com/"><img src="../assets/Pics/google.png" alt="google icon" height="36px" width="36px"></a>
+    <a href="https://www.yelp.com/biz/lotus-masaz-port-orchard-2?osq=lotus+masaz"><img src="../assets/Pics/yelp.png" alt="yelp icon" height="36px" width="36px"></a>
+  </div>
+</div>
 </body>
 </html>
+<!-- https://www.facebook.com/lotusmasaz/ -->

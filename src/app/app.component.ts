@@ -18,11 +18,12 @@ export class AppComponent {
   policies(){
     this.router.navigate(['/policies'])
   }
-  appointments(){
+  massages(){
     this.router.navigate(['/appointments'])
   }
   prices(){
     this.router.navigate(['/prices'])
   }
+
 
 }
