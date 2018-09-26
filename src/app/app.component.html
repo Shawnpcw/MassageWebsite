@@ -9,7 +9,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Lotus Masáž</title>
 </head>
-<body class="greenBackground" style="height: auto; width: auto" >
+<body class="" style="height: auto; width: auto" >
 <style>
   .bg-grey1{
     background-color: rgb(3, 3, 3);
@@ -17,41 +17,41 @@
 </style>
 
 
-<nav class="navbar  navbar-expand-lg navbar-light">
-  <a class="navbar-brand" (click)="home()">Lotus Masáž</a>
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand roboto" (click)="home()">Lotus Masáž</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
+    <ul class="navbar-nav ml-5 mr-auto">
       <li class="nav-item active">
-        <button class="nav-link btn btn-link" (click)="home()">Home </button>
+        <button class="nav-link btn btn-link " id="roboto" (click)="home()">HOME </button>
       </li>
       <li class="nav-item">
-        <button class="nav-link btn btn-link" (click)="massages()">Massage Types </button>
+        <button class="nav-link btn btn-link roboto" (click)="massages()">Massage Types </button>
       </li>
       <li class="nav-item">
-        <button class="nav-link btn btn-link" (click)="prices()">Prices </button>
+        <button class="nav-link btn btn-link roboto" (click)="prices()">Prices </button>
       </li>
       <li class="nav-item">
-        <button class="nav-link btn btn-link" (click)="policies()">Policies</button>
+        <button class="nav-link btn btn-link roboto" (click)="policies()">Policies</button>
       </li>
       <li class="nav-item">
-        <button class="nav-link btn btn-link" (click)="contact()">Contact </button>
+        <button class="nav-link btn btn-link roboto" (click)="contact()">Contact </button>
       </li>
     </ul>
     <a class="mr-3 btn btn-outline-dark mt-2" href="https://visibook.com/lotusmasaz" target="_blank">SCHEDULE APPOINTMENT</a>
   </div>
   
 </nav>
-<div class="container justify-content-center">
+<div class="container-fluid justify-content-center p-0">
 
   <router-outlet></router-outlet>
 </div>
 <br>
 
-<div class="row mb-3 p-0" style="width: 100%">
+<div class="row m-0 mb-3 p-0 bg-light pt-5" style="width: 100%">
     <br>
   <div class="col-lg-4 text-center  p-0">
   <p class="mb-0">701 Bay Street, Suite 204</p>  
