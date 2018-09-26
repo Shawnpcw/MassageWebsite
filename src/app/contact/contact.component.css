@@ -1,6 +1,12 @@
+.paddingtop{
+    padding-top: 5%;
+}
+.tophead{
+    width: 400px;
+    height: 400px;
+}
 .orangeText{
     color: #25960f;
-
 }
 .green1{
     background-color: #52bd24;
@@ -27,6 +33,15 @@ p{
 h1, h2, h3, h4, h5, h6, h7{
     font-family: 'Lora';
 }
-.paddingtop{
-    padding-top: 10%;
+.bgimg{
+    background-image: url("../../assets/Pics/lotus40percent.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size:  cover; /* Resize the background image to cover the entire container */
+    height:50rem;
+   
+    background-position-y: -50px;
+}
+.shadow{
+    box-shadow: -1px -3px 23px 5px rgb(189, 189, 189) inset;
 }
