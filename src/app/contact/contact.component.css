@@ -1,5 +1,5 @@
 .paddingtop{
-    padding-top: 5%;
+    padding-top: 2%;
 }
 .tophead{
     width: 400px;
@@ -44,4 +44,7 @@ h1, h2, h3, h4, h5, h6, h7{
 }
 .shadow{
     box-shadow: -1px -3px 23px 5px rgb(189, 189, 189) inset;
+}
+.paddingbot{
+    padding-bottom: 4%;
 }

@@ -37,3 +37,12 @@ h1, h2, h3, h4, h5, h6, h7{
     background-position: center top;
     background-attachment: fixed;
 }
+@media only screen and (max-width: 768px) {
+    .bg-img{
+        background: #aae392;
+        background-image: url(../../assets/Pics/pure-bliss-banner-2.jpg);
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-attachment: fixed;
+    }
+}

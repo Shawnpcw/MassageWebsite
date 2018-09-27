@@ -1,5 +1,5 @@
 .paddingtop{
-    padding-top: 6%
+    padding-top: 2%
 }
 .orangeText{
     color: #25960f;
@@ -21,7 +21,7 @@
     color: #304d22
 }
 .gradeintgreen{
-background: linear-gradient(160deg, #aae392,#ecf5e8 131%)
+    background: linear-gradient(160deg, #aae392,#ecf5e8 131%)
 }
 .grey1{
     background-color: #eeeeee
@@ -35,4 +35,7 @@ h1, h2, h3, h4, h5, h6, h7{
 }
 .shadow{
     box-shadow: -1px -3px 23px 5px rgb(189, 189, 189) inset;
+}
+.paddingbot{
+    padding-bottom: 4%;
 }

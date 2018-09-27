@@ -28,13 +28,16 @@
     font-size: 22px;
     
 }
-@media (min-width: 768px) {
-    .navbar {
-        width: 100%;
-        text-align: center;
-        
-      }
-}
+
+
+
 .link{
     color: black;
+}
+button{
+    border-radius: 20px;
+}
+li button{
+    font-size: 21px
+
 }
