@@ -21,7 +21,8 @@
     color: #304d22
 }
 .gradeintgreen{
-    background: linear-gradient(160deg, #aae392,#ecf5e8 131%)
+    /* background: linear-gradient(160deg, #aae392,#ecf5e8 131%) */
+    background-color: #aae392
 }
 .grey1{
     background-color: #eeeeee
